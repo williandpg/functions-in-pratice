@@ -12,12 +12,11 @@ let ligarDesligar = (carro) => {
 const circleArea = (raio) => {
   const pi = 3.14;
   if (typeof raio !== 'number') {
-    return 'O parâmetro raio deve ser um número';
+    return 'O parâmetro radius deve ser um número';
   }
   let area = pi * (raio ** 2);
-  return `Esta é a área do circulo: ${area}`;
+  return `Esta é a área do círculo: ${area}`;
 };
-console.log(circleArea(10));
 // 3 - Crie a função longestWord, que receba uma frase como parâmetro e retorne a maior palavra da frase.
 
 // Não modifique as linhas abaixo
