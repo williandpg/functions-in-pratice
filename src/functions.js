@@ -30,7 +30,7 @@ const longestWord = (frase) => {
     }
   }
   return maiorPalavra;
-}
+};
 // Não modifique as linhas abaixo
 module.exports = {
   ligarDesligar: typeof ligarDesligar === 'function' ? ligarDesligar : (() => {}),
